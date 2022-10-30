@@ -68,3 +68,7 @@ img {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
 }
+
+h1, h2 {
+    text-align: center;
+}
