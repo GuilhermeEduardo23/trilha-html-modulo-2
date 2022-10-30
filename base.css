@@ -28,8 +28,10 @@ body {
 
 .menu {
     width: 25%;
+    border-radius: 1rem;
     background-color: rgba(0, 55, 255, 0.534);
     padding: 10px 20px 0px;
+    margin-right: 0.5rem;
 }
 
 li {
@@ -69,6 +71,8 @@ img {
     color: rgb(255, 255, 255);
     min-height: 150px;
     padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 00.5rem;
 }
 
 h1, h2 {
