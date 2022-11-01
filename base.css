@@ -78,3 +78,19 @@ img {
 h1, h2 {
     text-align: center;
 }
+
+iframe {
+    border-radius: 1rem;
+}
+
+input, textarea, fieldset {
+    border-radius: 0.5rem;
+}
+
+fieldset {
+    width: 50%;
+}
+
+legend {
+    font-weight: bold;
+}

@@ -5,33 +5,57 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Template - Utilizar como modelo</title>
+        <title>Contato</title>
         <link rel="stylesheet" href="base.css">
     </head>
     
     <body>
         <div class="wrapper">
             <div class="menu">
-                <!-- Aqui vai o seu menu -->
                 <ul>
-                    <li><a href="#">Link</a></li>
+                    <li><a href="template.html">Página Principal</a></li> <br>
+                    <li><a href="about.html">Sobre a Clínica</a></li> <br>
+                    <li><a href="opening_hours.html">Horário de Atendimento</a></li> <br>
+                    <li><a href="contact.html">Contato</a></li> <br>
                 </ul>
             </div>
 
             <div class="main">
                 <div class="header">
-                    Header
-                    <!-- Aqui vai o seu header -->
+                    <img src="media/images/contatos.png" alt="Banner de Contato" title="Contato">
                 </div>
         
                 <div class="content">
-                    Content
-                    <!-- Aqui vai o seu conteúdo -->
+                    <h1>Informações para Contato</h1>
+
+                    <p><b>Celular e WhatsApp:</b> (12)912345-6789</p>
+                    <p><b>Endereço:</b> Av. Beira Rio, Brasil</p>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.201827069423!2d-49.20745128571166!3d-18.429143198149323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a10d5f57342403%3A0xf13f2e6002e9b3b9!2sAv.%20Beira%20Rio%20-%20Village%20Imperial%2C%20Itumbiara%20-%20GO%2C%2075523-200!5e0!3m2!1spt-BR!2sbr!4v1667269251867!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <form action="" method="post">
+                        <fieldset>
+                            <legend>Formulário de Contato</legend>
+
+                            <label>Nome: </label> <input type="text" name="name" required> <br> <br>
+                            <label>E-mail: </label> <input type="email" name="email" required> <br> <br>
+                            <label>Assunto: </label> <input type="text" name="subject" required> <br> <br>
+                            <label>Mensagem: </label> <textarea name="message"cols="30"></textarea> <br> <br>
+
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpar</button>
+                        </fieldset>                     
+                    </form>
                 </div>
         
                 <div class="footer">
-                    Footer
-                    <!-- Aqui vai o seu rodapé -->
+                    <h3>
+                        CONTATO
+                    </h3>
+                    
+                    <p><b>Telefone: </b>(12) 1234-5678</p>
+                    <p><b>E-mail: </b>contato@clinicaboasaude.com</p>
+                    <p><b>Endereço: </b>Av. Beira Rio, Brasil</p>
                 </div>
             </div>
         </div>
